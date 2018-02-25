@@ -36,7 +36,7 @@ public class waterAdapter extends RecyclerView.Adapter<waterAdapter.WaterViewHol
     }
 
 
-//mengambil data gamba, item dan deskripsi
+//mengambil data gambar, item dan deskripsi
     @Override
     public int getItemCount() {
         return mWaterData.size();

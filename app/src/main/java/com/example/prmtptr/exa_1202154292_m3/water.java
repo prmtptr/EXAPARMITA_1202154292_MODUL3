@@ -5,6 +5,7 @@ public class water {
     String title, description, detail;
     int image;
 
+    //deklarasikan
     public water(String title, String description, String detail, int image){
         this.title= title;
         this.description=description;

@@ -98,13 +98,10 @@ public class MainActivity extends AppCompatActivity {
         for(int i=0;i<watersList.length;i++){
             String[] judul = {"aqua", "ades", "amidis", "cleo", "club", "equil",
                     "evian", "leminerale", "pristine", "vit", "nestle"};
-            mWaterData.add(new water(judul[i], "Air minum merk "+judul[i], "Lorem ipsum dolor sit amet, consectetur adipiscing elit. " +
-                    "Pellentesque accumsan laoreet diam in viverra. Etiam consequat quis ligula id gravida." +
-                    " Sed sed maximus nulla. Nunc pulvinar cursus justo eu luctus. Pellentesque pellentesque" +
-                    " velit ut tortor imperdiet congue. Proin quam velit, luctus nec placerat eu, vehicula nec sapien. " +
-                    "Vestibulum dapibus dictum dapibus. Sed a ipsum vel lectus pharetra auctor. " +
-                    "Nam vel arcu quis orci elementum commodo. Duis luctus, risus in faucibus dapibus, diam augue " +
-                    "feugiat enim, et eleifend libero augue ac massa.",
+            mWaterData.add(new water(judul[i], "Air minum merk "+judul[i], "air minum pennting untuk kesehata kita da sangaat di butuhkan oleh tubuh kita." +
+                            " air minum juga memberi energi pada tubuh kita yang 80% terdiri dari air" +
+                    " pentingnya meminum air putih karena kita sangat membutuhkan bantuan ir putih dalam tubuh kita " +
+                    "minumlah air putih 12 gelas satu hari untuk memenuhi kebutuhan ",
                     watersImageRes.getResourceId(i,0)));
         }
         watersImageRes.recycle();

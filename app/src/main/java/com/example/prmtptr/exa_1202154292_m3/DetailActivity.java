@@ -11,6 +11,7 @@ public class DetailActivity extends AppCompatActivity {
     ImageView battery;
     int container = 1;
 
+    //mengambil id dr masing2 text dan image view
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
