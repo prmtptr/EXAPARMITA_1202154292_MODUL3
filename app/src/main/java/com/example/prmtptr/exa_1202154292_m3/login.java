@@ -16,6 +16,8 @@ public class login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
     }
 
+    //user dan password statik, memasukan nilai username dan password
+
     public void login(View view) {
         EditText username = findViewById(R.id.username);
         EditText password = findViewById(R.id.password);

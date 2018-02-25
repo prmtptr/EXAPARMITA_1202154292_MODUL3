@@ -7,9 +7,9 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 public class SplashScreen extends AppCompatActivity {
-
+    // lamanya splash screen
     private static int splashInterval = 5000;
-
+    //membuat splashscreen pindah ke login screen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

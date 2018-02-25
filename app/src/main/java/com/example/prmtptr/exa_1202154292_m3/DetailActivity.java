@@ -26,6 +26,8 @@ public class DetailActivity extends AppCompatActivity {
 
     }
 
+    //untuk membuat nilai plus dan nilai minus pd bar battery
+
     public void decrease(View view) {
         if (between(container--, 1, 3))
             level(container);
@@ -43,6 +45,7 @@ public class DetailActivity extends AppCompatActivity {
             return false;
     }
 
+    //menunjukan battery
     public void level(int lvl) {
         switch (lvl) {
             case 1:

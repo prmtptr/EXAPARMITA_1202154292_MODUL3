@@ -14,7 +14,7 @@ import java.util.ArrayList;
 /**
  * Created by prmtptr on 2/24/2018.
  */
-
+//memasukan aarray list
 public class waterAdapter extends RecyclerView.Adapter<waterAdapter.WaterViewHolder> {
     private ArrayList<water> mWaterData;
     private Context context;
@@ -23,7 +23,7 @@ public class waterAdapter extends RecyclerView.Adapter<waterAdapter.WaterViewHol
         this.context = context;
         mWaterData = waters;
     }
-
+//untuk memasukan gambar menjadi list
     @Override
     public WaterViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         return new WaterViewHolder(LayoutInflater.from(context).inflate(R.layout.list_item, parent, false));
@@ -35,6 +35,8 @@ public class waterAdapter extends RecyclerView.Adapter<waterAdapter.WaterViewHol
         holder.bindTo(currentWater);
     }
 
+
+//mengambil data gamba, item dan deskripsi
     @Override
     public int getItemCount() {
         return mWaterData.size();
@@ -56,7 +58,7 @@ public class waterAdapter extends RecyclerView.Adapter<waterAdapter.WaterViewHol
             mDescription.setText(currentWater.getDescpription());
             mWatersImage.setImageResource(currentWater.getImage());
         }
-
+//membuat posisi dengan gambar nama dan detail
         @Override
         public void onClick(View view) {
             water currentWater = mWaterData.get(getAdapterPosition());
